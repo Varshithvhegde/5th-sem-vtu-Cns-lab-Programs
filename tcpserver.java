@@ -1,6 +1,6 @@
 import java.io.*;
 import java.net.*;
-public class server {
+public class tcpserver {
     public static void main(String[] args) throws IOException {
         ServerSocket servsock =new ServerSocket(8000);
         Socket sock=servsock.accept();
