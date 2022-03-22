@@ -1,7 +1,7 @@
 import java.io.*;
 import java.net.*;
 import java.io.*;
-public class client {
+public class tcpclient {
     public static void main(String args[]) throws UnknownHostException, IOException{
         Socket sock=new Socket("localhost",8000);
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
