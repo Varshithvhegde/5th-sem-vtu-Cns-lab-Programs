@@ -14,7 +14,7 @@ public class crc {
                 code = code+"0";
             }
             System.out.println("COde transmitted is : "+code);
-            code = code +div(code,gen);
+            
             
             String rem =div(code,gen);
             if(Integer.parseInt(rem)==0){
